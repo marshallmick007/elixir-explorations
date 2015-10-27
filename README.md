@@ -1,6 +1,6 @@
 # Explorations
 
-**TODO: Add description**
+Learning Elixir
 
 ## Installation
 
