@@ -22,5 +22,3 @@ adj2 = Enum.random(adjectives)
 
 IO.puts "#{adjective} #{adj2} #{noun}"
 
-:erlang.process_info(self(), :memory)
-
