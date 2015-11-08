@@ -75,4 +75,15 @@ defmodule ExplorationsTest do
     squares = Enum.map list, fn (item) -> item * item end
     assert squares == [1, 4, 9, 16, 25]
   end
+
+  test "String Interpolation" do
+    s = "Hello #{1 + 2}"
+    assert s == "Hello 3"
+  end
+
+  test "List Length" do
+    list = [1, 2, 3]
+    len = length(list)
+    assert len == 3
+  end
 end
